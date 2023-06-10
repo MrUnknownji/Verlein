@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div{
+    margin: 5%;
+}
+ul{
+    list-style: none;
+}
+header div ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+header div ul li{
+    margin: 15%;
+}
+
+h4{
+    font-size: small;
+    margin: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.3em;
+}
+
+h2{
+    font-size: large;
+}
+h2{
+    font-size: small;
+}
+
+.main_div_1{
+    width: 100vw;
+    height: 50vh;
+    background: url("assests/img/Verlein\ -\ AlimaVerlein\ 26_08_20202206\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15%;
+    color: white;
+    
+}
+
+.main_div_2{
+    width: 70%;
+    display: flex;
+    justify-content: center;  
+    height: 550px;
+}
+.first_sub_main_div{
+    width: 40%;
+    background: url("assests/img/Verlein\ -\ AlimaVerlein\ 26_08_20202107\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    color: white;
+    font-size: xx-large;
+}
+.second_sub_main_div{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1.5em;
+    margin-left: 1.5em;
+    width: 60%;
+}
+.second_sub_main_div div:nth-child(1){
+    background: url("assests/img/image\ 7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.second_sub_main_div div:nth-child(2){
+    background: url("assests/img/image\ 8.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.second_sub_main_div div:nth-child(3){
+    background: url("assests/img/image\ 9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.second_sub_main_div div:nth-child(4){
+    background: url("assests/img/image\ 7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+font{
+    visibility: hidden;
+}
+.main_div_3{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_div_3 div{
+    height: 400px;
+    width: 350px;
+}
+.main_div_3 div:nth-child(1){
+    background: url("assests/img/Mask\ Group\ \(1\).png");
+    background-repeat: no-repeat;
+}
+.main_div_3 div:nth-child(2){
+    background: url("assests/img/Mask\ Group.png");
+    background-repeat: no-repeat;
+}
+.main_div_3 div:nth-child(3){
+    background: url("assests/img/Mask\ Group\ \(1\).png");
+    background-repeat: no-repeat;
+}
+.ds1{
+    visibility: hidden;
+}
+.big_img_div {
+    width: 100vw;
+    height: 100vh;
+}
+#big_img_div1{
+    background: url("assests/img/Verlein\ -\ AlimaVerlein\ 26_08_20202315\ 1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#big_img_div2{
+    background: url("assests/img/Verlein\ -\ AlimaVerlein\ 26_08_20202381\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.txt_below_big_img1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt_below_big_img1 h2,h3{
+    margin: 5%;
+} 
+.txt_below_big_img1 h2{
+    margin-bottom: 15%;
+}
+.main_div_4{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.main_div_4 img{
+    width: 80%;
+}
+button {
+    width: fit-content;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    color: white;
+    font-size: large;
+    background: transparent;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.btn_type_2{
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background: transparent;
+}
+button:hover{
+    background: linear-gradient(90deg,rgba(0, 128, 30, 0.72), rgba(156, 0, 0, 0.72));
+    transform: translateY(-3px);
+}
+.last_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: fit-content;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.last_div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.last_div div:nth-child(1){
+    background: url("assests/img/image\ 14.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+}
+.last_div div:nth-child(2){
+    background: url("assests/img/image\ 12.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.last_div div:nth-child(3){
+    background: url("assests/img/image\ 13.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.last_div div:nth-child(4){
+    background: url("assests/img/image\ 14.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-right: 0px;
+}
+.last_div div div{
+    background: none;
+    visibility: hidden;
+}
+
+footer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+footer div{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.footer_div_1{
+    margin-left: 0px;
+}
+.footer_div_4{
+    margin-right: 0px;
+}
+footer img{
+    margin-bottom: 10%;
+}
+footer h2{
+    margin-bottom: 10%;
+}
+footer .footer_div_1 ul{
+    display: flex;
+    width: 100%;
+}
+footer .footer_div_1 li{
+    margin: auto;
+}
+input[type="search"]{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(139, 139, 139, 0.797);
+    padding: 5px;
+}
+hr{
+    width: 70%;
+}
